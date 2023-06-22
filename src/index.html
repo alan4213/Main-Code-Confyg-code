@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Confyguration Page</title>
+    <style>
+        body {
+            background-color: #000000;
+
+        }
+
+        .container {
+            width: 100%;
+            margin: 0px;
+            padding: 5px 0px;
+            border-bottom: 2px solid white;
+        }
+        
+        .navbar {
+            margin: auto;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        @media (width >= 992px) {
+            .container-lg, .container-md, .container-sm, .container {
+                max-width: 100%;
+            }
+        }
+        .confyg {
+            color: white;
+            margin-left: 40px; 
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <div class="navbar navbar-light bg-ligt shadow-sm">
+            <div>
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <strong class="confyg">Confyg.xyz</strong>
+                    <hr style="color: white">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="app"></div>
+    </main>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
